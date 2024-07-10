@@ -1,4 +1,4 @@
-function MyRecipes({ label, image, calories, ingridients, cuisineType }) {
+function MyRecipes({ label, image, calories, ingredients, cuisineType }) {
 
     return (
         <div className='recipe-container'>
@@ -16,7 +16,7 @@ function MyRecipes({ label, image, calories, ingridients, cuisineType }) {
 
             <div className='container'>
                 <ul className="ingridients">
-                    {ingridients.map((ingredient, index) => (
+                    {ingredients.map((ingredient, index) => (
                         <li key={index}>
                             <img src='https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-check-multimedia-kiranshastry-gradient-kiranshastry.png' alt='icon' />
                             {ingredient}
