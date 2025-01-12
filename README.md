@@ -1,5 +1,8 @@
-# Link
+# the Recipe Finder
+The Recipe Finder app allows you to input a single ingredient and gives a list of suggested recipes. By searching a comprehensive recipe database, the app recommends dishes that highlight or incorporate the chosen item. You can explore diverse cuisines, dietary options, or cooking styles, making it easy to discover new ways to enjoy their favorite or available ingredients
 
+# Links
+https://github.com/gos0808/recipe-app
 https://recipes-hunt.netlify.app/
 
 # Getting Started with Create React App
