@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import video from './food.mp4';
+// import video from './food.mp4';
 import MyRecipes from './MyRecipes';
 
 function App() {
@@ -35,12 +35,18 @@ function App() {
   return (
     <div className="App">
 
-      <div className="container">
-        <video autoPlay muted loop>
-          <source src={video} type="video/mp4" />
-        </video>
-        <h1>Find a Recipe</h1>
+      <div className="background"
+        style={{
+          backgroundImage: `url('https://plus.unsplash.com/premium_photo-1723485711525-c743685a023d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+        }}
+      >
       </div>
+
+      {/* <video autoPlay muted loop>
+          <source src={video} type="video/mp4" />
+        </video> */}
+      <h1>Find a Recipe</h1>
+
 
       <form className='container search' onSubmit={finalSearch}>
         <input className='search-input'

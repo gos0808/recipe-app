@@ -1,4 +1,4 @@
-video {
+.background {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -8,6 +8,11 @@ video {
   z-index: -1;
 }
 
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
 .App {
     background-color: rgba(255, 255, 255, 0.5);
     min-height: 100vh;
@@ -15,13 +20,14 @@ video {
 
 .container {
   display: flex;
+
   justify-content: center;
   justify-items: center;
 }
 
 .recipe-container {
   background-color: rgba(255, 255, 255, 0.8);
-  margin: 10px auto;
+  margin: auto auto 15px auto;
   max-width: 30%;
   border-radius: 5px;
 }
@@ -41,7 +47,7 @@ video {
   min-width: 200px;
   padding: 8px 12px;
   margin-top: 10px;
-  background-color: transparent;
+  /* background-color: transparent; */
   border: solid 2px #898FBD;
   /* color: #575756;
   box-shadow: inset 0px 0px 0px 4px #ddd6e8; */
@@ -124,7 +130,7 @@ h2 {
 
 .cuisine {
  background-color: #D6E1E8;
- top: 11%;
+ top: 15%;
  right: 1%;
 }
 
